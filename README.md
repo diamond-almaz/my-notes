@@ -42,19 +42,22 @@
 
     setTimeout(() => console.log("Step 6: In another setTimeout"))
     ```
-  <details>
-    <summary>Ответ</summary>
+    <details>
+      <summary>Ответ</summary>
 
-    >Step 1: In global scope \
-    Step 3: In promise constructor \
-    Step 4: In then \
-    Step 5: In another then \
-    Step 2: In setTimeout \
-    Step 6: In another setTimeout \
-  </details>
+      >Step 1: In global scope \
+      Step 3: In promise constructor \
+      Step 4: In then \
+      Step 5: In another then \
+      Step 2: In setTimeout \
+      Step 6: In another setTimeout \
+    </details>
+  
 ---
+
 3. dsadas
 4. dasda
+5. 
 
 
 
