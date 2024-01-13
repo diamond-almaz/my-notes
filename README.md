@@ -4,10 +4,16 @@
 
 ## Event loop
 
+<details>
+  <summary>Тезисное объяснение</summary>
+
+  
+</details>
+
 #### Статьи
   1. [Event Loop в деталях](https://habr.com/ru/articles/762618)
-  2. [Event Loop от А до Я. Архитектура браузера и Node JS. Движки и рендер. Самое подробное видео](https://www.youtube.com/watch?v=zDlg64fsQow)
-
+#### Видео
+  1. [Event Loop от А до Я. Архитектура браузера и Node JS. Движки и рендер. Самое подробное видео](https://www.youtube.com/watch?v=zDlg64fsQow)
 
 #### Задачи
 ---
@@ -135,12 +141,13 @@
      <summary>Ответ</summary>
      
      >Step 4: In promise constructor \
-Step 5: In then \
-Step 1: In setTimeout \
-Step 2: In promise constructor (inside setTimeout) \
-Step 3: In then (inside setTimeout) \
-Step 6: In another setTimeout 
+     Step 5: In then \
+     Step 1: In setTimeout \
+     Step 2: In promise constructor (inside setTimeout) \
+     Step 3: In then (inside setTimeout) \
+     Step 6: In another setTimeout 
    </details> 
+
 
 
 
