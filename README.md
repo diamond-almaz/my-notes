@@ -7,7 +7,8 @@
 <details>
   <summary>Тезисное объяснение</summary>
 
-  Jsvascript является 
+  Jsvascript является
+
   
 </details>
 
@@ -19,7 +20,7 @@
 
 #### Задачи
 ---
-1. Определите порядок
+1. Что код выведет в консоли
    ```
    console.log("Step 1: In global scope")
 
@@ -41,7 +42,7 @@
       Step 5: In another setTimeout
    </details>
 ---
-2. Определите порядок
+2. Что код выведет в консоли
    ```
    console.log("Step 1: In global scope")
 
@@ -67,7 +68,7 @@
   
 ---
 
-3. Определите порядок
+3. Что код выведет в консоли
    ```
    console.log("Step 1: In global scope")
 
@@ -101,7 +102,7 @@
       Step 6: In another setTimeout
     </details>
 ---
-4. Определите порядок
+4. Что код выведет в консоли
    ```
    setTimeout(() => console.log('Step 1: In setTimeout'));
 
@@ -125,7 +126,7 @@
       Step 4: In setTimeout (inside of "then")
    </details>  
 ---
-5. Определите порядок
+5. Что код выведет в консоли
    ```
    setTimeout(() => console.log('Step 1: In setTimeout'));
    setTimeout(() => {
@@ -153,6 +154,31 @@
      Step 2: In promise constructor (inside setTimeout) \
      Step 3: In then (inside setTimeout) \
      Step 6: In another setTimeout 
+   </details> 
+6. Что код выведет в консоли
+   ```
+   setTimeout(function timeout() {
+    console.log('Таймаут');
+    }, 0);
+
+    let p = new Promise(function(resolve, reject) {
+    console.log('Создание промиса');
+    resolve();
+    });
+
+    p.then(function(){
+    console.log('Обработка промиса');
+    });
+
+    console.log('Конец скрипта');
+    ```
+   <details>
+     <summary>Ответ</summary>
+     
+     >Создание промиса \
+     Конец скрипта \
+     Обработка промиса \
+     Таймаут
    </details> 
 
 
