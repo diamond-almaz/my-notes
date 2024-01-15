@@ -17,7 +17,8 @@
 
 #### Задачи
 ---
-1. ```
+1. Определите порядок
+   ```
    console.log("Step 1: In global scope")
 
     setTimeout(() => console.log("Step 2: In setTimeout"));
@@ -38,7 +39,8 @@
       Step 5: In another setTimeout
    </details>
 ---
-2. ```
+2. Определите порядок
+   ```
    console.log("Step 1: In global scope")
 
    setTimeout(() => console.log("Step 2: In setTimeout"));
@@ -63,7 +65,8 @@
   
 ---
 
-3. ```
+3. Определите порядок
+   ```
    console.log("Step 1: In global scope")
 
     setTimeout(() => console.log("Step 2: In setTimeout"));
@@ -96,7 +99,8 @@
       Step 6: In another setTimeout
     </details>
 ---
-4. ```
+4. Определите порядок
+   ```
    setTimeout(() => console.log('Step 1: In setTimeout'));
 
    new Promise(resolve => {
@@ -119,7 +123,8 @@
       Step 4: In setTimeout (inside of "then")
    </details>  
 ---
-5. ```
+5. Определите порядок
+   ```
    setTimeout(() => console.log('Step 1: In setTimeout'));
    setTimeout(() => {
     new Promise(resolve => {
