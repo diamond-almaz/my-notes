@@ -13,6 +13,7 @@
 
 #### Статьи
   1. [Event Loop в деталях](https://habr.com/ru/articles/762618)
+  2. [Событийный цикл: микрозадачи и макрозадачи](https://learn.javascript.ru/event-loop)
 #### Видео
   1. [Event Loop от А до Я. Архитектура браузера и Node JS. Движки и рендер. Самое подробное видео](https://www.youtube.com/watch?v=zDlg64fsQow)
 
