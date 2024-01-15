@@ -7,6 +7,7 @@
 <details>
   <summary>Тезисное объяснение</summary>
 
+  Jsvascript является 
   
 </details>
 
