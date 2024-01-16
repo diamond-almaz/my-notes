@@ -25,8 +25,13 @@
     
   Микротаски выполняются первее макрозадач. 
 
-  Наглядный пример работы event loop:
+  <details>
+    <summary>Наглядный пример работы event loop</summary>
+    
   ![Наглядный пример](https://www.jscamp.app/ru/assets/images/br-1e24a585f7b50873c0cae1bec221d0d7.gif "Наглядный пример")
+  </details>
+
+  
 
   Важные замечание: 
    - Event loop не является частью движка, он предоставляется средой (браузер или node js)
