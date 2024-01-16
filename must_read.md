@@ -1,1 +1,2 @@
 - [ ] [Как работает JS: обзор движка, механизмов времени выполнения, стека вызовов](https://habr.com/ru/companies/ruvds/articles/337042/)
+- [ ] [Всё, что нужно знать о файлах cookie, в одной статье](https://skillbox.ru/media/marketing/vsye-chto-nuzhno-znat-o-faylakh-cookie-v-odnoy-state/)
