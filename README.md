@@ -43,6 +43,7 @@
   2. [Событийный цикл: микрозадачи и макрозадачи](https://learn.javascript.ru/event-loop)
   3. [Асинхронность Event loop](https://www.jscamp.app/ru/docs/javascript25)
   4. [Как управлять event loop в JavaScript. Часть 1](https://skillbox.ru/media/code/event_loop_chast_1/)
+  5. [Как управлять event loop в JavaScript. Часть 2](https://skillbox.ru/media/code/event_loop_chast_2/)
 #### Видео
   1. [Event Loop от А до Я. Архитектура браузера и Node JS. Движки и рендер. Самое подробное видео](https://www.youtube.com/watch?v=zDlg64fsQow)
 
