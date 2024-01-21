@@ -5,7 +5,9 @@
 
   В ангуляр есть две стратегии обнаружения: Default и OnPush.
 
-  При Default Angular проводит проверку изменений по всему дереву компонентов, даже если в тех ветках в котором нет компонента который послужил тригером.
+  При стратегии Default Angular проводит проверку изменений по всему дереву компонентов, даже если в тех ветках в котором нет компонента который послужил тригером.
+
+  При стратегии OnPush 
 </details>
 
 #### Видео
@@ -14,3 +16,4 @@
   3. [ngOnChanges vs ngDoCheck. ChangeDetectionStrategy OnPush в Angular](https://www.youtube.com/watch?v=kkX-7XCvXPI)
 #### Статьи 
   1. [Глубокое погружение в стратегию обнаружения изменений OnPush в Angular](https://dev-gang.ru/article/glubokoe-pogruzhenie-v-strategiu-obnaruzhenija-izmenenii-onpush-v-angular-6ai0nwalv9/)
+  2. [Полное руководство по стратегии обнаружения изменений Angular onPush](https://habr.com/ru/companies/infopulse/articles/358860/)
