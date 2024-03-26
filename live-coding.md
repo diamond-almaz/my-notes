@@ -44,9 +44,11 @@
     fetching(3);
 </details>
 
-2. Реализуйте Promise.all
+2. Реализуйте собственный Promise.all
    <details>
      <summary>Ответ</summary>
       
    </details>
+   
+3.  Реализуйте собственный класс Promise
 
