@@ -51,5 +51,18 @@
       
    </details>
 4. Реализуйте собственный Promise.allSettled
-5. Реализуйте собственный Promise.race
+   <details>
+     <summary>Ответ</summary>
+      
+   </details>
+6. Реализуйте собственный Promise.race
+   <details>
+     <summary>Ответ</summary>
+      
+   </details>
+8. Реализуйте собственный Promise.any
+   <details>
+     <summary>Ответ</summary>
+      
+   </details>
 
