@@ -69,4 +69,34 @@
      <summary>Ответ</summary>
       
    </details>
+9. Промисифицирйте данный код
+    ```javascript
+    function loadScript(src, callback) {
+    let script = document.createElement('script');
+    script.src = src;
+
+      script.onload = () => callback(null, script);
+      script.onerror = () => callback(new Error(`Ошибка загрузки скрипта ${src}`));
+
+      document.head.append(script);
+    }
+
+    ```
+   <details>
+     <summary>Ответ</summary>
+
+      ```javascript
+      function loadScript(src) {
+        return new Promise((resolve, reject) => {
+        let script = document.createElement('script');
+        script.src = src;
+
+        script.onload = () => resolve(script);
+        script.onerror = () => reject(new Error(`Ошибка загрузки скрипта ${src}`));
+
+      document.head.append(script);
+        })
+    }
+      ```
+   </details>
 
