@@ -51,4 +51,5 @@
       
    </details>
 4. Реализуйте собственный Promise.allSettled
+5. Реализуйте собственный Promise.race
 
