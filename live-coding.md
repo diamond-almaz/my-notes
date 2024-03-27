@@ -45,12 +45,16 @@
 </details>
    
 2. Реализуйте собственный класс Promise
-3. Реализуйте собственный Promise.all
    <details>
      <summary>Ответ</summary>
       
    </details>
-4. Реализуйте собственный Promise.allSettled
+4. Реализуйте собственный Promise.all
+   <details>
+     <summary>Ответ</summary>
+      
+   </details>
+5. Реализуйте собственный Promise.allSettled
    <details>
      <summary>Ответ</summary>
       
