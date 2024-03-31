@@ -112,6 +112,22 @@
 5.  Реализуйте собственный Promise.race
     <details>
       <summary>Ответ</summary>
+
+      ```javascript
+      function promiseRace(arrayOfPromises) {
+        return new Promise((resolve, reject) => {
+        for (let i = 0; i < arrayOfPromises.length; i++) {
+            const promise = arrayOfPromises[i];
+            promise
+            .then((data) => {
+                resolve(data)
+            })
+            .catch((err) => reject(err))
+        }
+        
+       })
+      }
+      ```
        
     </details>
 6.  Реализуйте собственный Promise.any
