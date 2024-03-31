@@ -46,12 +46,14 @@
     ```
 
     </details>
+    <br/>
 
 2.  Реализуйте собственный класс Promise
     <details>
       <summary>Ответ</summary>
        
     </details>
+    <br/>
 3.  Реализуйте собственный Promise.all
     <details>
       <summary>Ответ</summary>
@@ -79,6 +81,7 @@
     ```
 
     </details>
+    <br/>
 
 4.  Реализуйте собственный Promise.allSettled
     <details>
@@ -108,34 +111,37 @@
     ```
 
       </details>
+      <br/>
 
 5.  Реализуйте собственный Promise.race
     <details>
       <summary>Ответ</summary>
 
-      ```javascript
-      function promiseRace(arrayOfPromises) {
-        return new Promise((resolve, reject) => {
+    ```javascript
+    function promiseRace(arrayOfPromises) {
+      return new Promise((resolve, reject) => {
         for (let i = 0; i < arrayOfPromises.length; i++) {
-            const promise = arrayOfPromises[i];
-            promise
+          const promise = arrayOfPromises[i];
+          promise
             .then((data) => {
-                resolve(data)
+              resolve(data);
             })
-            .catch((err) => reject(err))
+            .catch((err) => reject(err));
         }
-        
-       })
-      }
-      ```
-       
+      });
+    }
+    ```
+
     </details>
+      <br/>
+
 6.  Реализуйте собственный Promise.any
     <details>
       <summary>Ответ</summary>
        
     </details>
-7.  Промисифицирйте данный код
+    <br/>
+7.  Промисифицируйте данный код
 
     ```javascript
     function loadScript(src, callback) {
@@ -167,5 +173,12 @@
       });
     }
     ```
+
+    </details>
+    <br/>
+
+8.  Реализуйте функцию, которая реализует глубокое копирование объекта
+    <details>
+      <summary>Ответ</summary>
 
     </details>
