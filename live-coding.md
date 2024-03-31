@@ -83,8 +83,32 @@
 4.  Реализуйте собственный Promise.allSettled
     <details>
       <summary>Ответ</summary>
-       
-    </details>
+
+    ```javascript
+    function promiseAllSettled(arrayOfPromises) {
+      return new Promise((resolve, reject) => {
+        const result = [];
+        let count = 0;
+        for (let i = 0; i < arrayOfPromises.length; i++) {
+          const promise = arrayOfPromises[i];
+          promise
+            .then((data) => {
+              result[i] = { status: "fulfilled", value: data };
+            })
+            .catch((err) => (result[i] = { status: "rejected", reason: err }))
+            .finally(() => {
+              count++;
+              if (count === arrayOfPromises.length) {
+                resolve(result);
+              }
+            });
+        }
+      });
+    }
+    ```
+
+      </details>
+
 5.  Реализуйте собственный Promise.race
     <details>
       <summary>Ответ</summary>
