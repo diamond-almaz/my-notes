@@ -48,7 +48,7 @@
     </details>
     <br/>
 
-2.  Реализуйте собственный класс Promise
+2.  <span style="color: red">Реализуйте собственный класс Promise</span>
     <details>
       <summary>Ответ</summary>
        
@@ -135,7 +135,7 @@
     </details>
       <br/>
 
-6.  Реализуйте собственный Promise.any
+6.  <span style="color: red">Реализуйте собственный Promise.any</span>
     <details>
       <summary>Ответ</summary>
        
@@ -177,7 +177,7 @@
     </details>
     <br/>
 
-8.  Реализуйте функцию, которая реализует глубокое копирование объекта
+8.  <span style="color: red">Реализуйте функцию, которая реализует глубокое копирование объекта</span>
     <details>
       <summary>Ответ</summary>
 
