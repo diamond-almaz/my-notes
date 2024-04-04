@@ -179,6 +179,17 @@
 
 8.  <span style="color: red">Реализуйте функцию, которая реализует глубокое копирование объекта</span>
     <details>
-      <summary>Ответ</summary>
+    <summary>Ответ</summary>
+
+      ```javascript
+        function cloneDeep(data) {
+          if (!data || typeof data !== 'object') return data;
+          const result = Array.isArray(data) ? [] : {};
+          for (const prop in data) {
+            result[prop] = cloneDeep(data[prop]);
+          }
+          return result;
+        }
+      ```
 
     </details>
