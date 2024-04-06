@@ -1,4 +1,5 @@
-1.  Релизуйте функцию debounce
+1.  Релизуйте функцию debounce\
+    _Примечание_: debounce запускает функцию один раз после периода «бездействия». Подходит для обработки конечного результата.
 
     ```javascript
     const fetchUrl = (url) => {
@@ -177,19 +178,39 @@
     </details>
     <br/>
 
-8.  <span style="color: red">Реализуйте функцию, которая реализует глубокое копирование объекта</span>
+8.  Реализуйте функцию, которая реализует глубокое копирование объекта
     <details>
     <summary>Ответ</summary>
 
-      ```javascript
-        function cloneDeep(data) {
-          if (!data || typeof data !== 'object') return data;
-          const result = Array.isArray(data) ? [] : {};
-          for (const prop in data) {
-            result[prop] = cloneDeep(data[prop]);
-          }
-          return result;
-        }
-      ```
+    ```javascript
+    function cloneDeep(data) {
+      if (!data || typeof data !== "object") return data;
+      const result = Array.isArray(data) ? [] : {};
+      for (const prop in data) {
+        result[prop] = cloneDeep(data[prop]);
+      }
+      return result;
+    }
+    ```
 
     </details>
+    <br/>
+
+9.  Реализуйте функцию throttle
+    _Примечание_: throttle запускает функцию не чаще, чем указанное время ms. Подходит для регулярных обновлений, которые не должны быть слишком частыми.
+
+    ```javascript
+    function f(a) {
+      console.log(a);
+    }
+
+    // f1000 передаёт вызовы f максимум раз в 1000 мс
+    let f1000 = throttle(f, 1000);
+
+    f1000(1); // показывает 1
+    f1000(2); // (ограничение, 1000 мс ещё нет)
+    f1000(3); // (ограничение, 1000 мс ещё нет)
+
+    // когда 1000 мс истекли ...
+    // ...выводим 3, промежуточное значение 2 было проигнорировано
+    ```
