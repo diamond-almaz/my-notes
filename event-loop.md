@@ -1,6 +1,3 @@
-# js-concepts
-
----
 
 ## Event loop
 
