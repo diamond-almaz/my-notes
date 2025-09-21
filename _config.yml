@@ -1,6 +1,5 @@
 theme: jekyll-theme-midnight
-nav:
-  - Главная: index.md
-  - Статья 1: event-loop.md
-  - Статья 2: live-coding.md
-  - Документация: docs/guide.md
+collections:
+  docs:
+    output: true
+    permalink: /docs/:path/
