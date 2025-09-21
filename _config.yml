@@ -2,4 +2,4 @@ theme: jekyll-theme-midnight
 collections:
   docs:
     output: true
-    permalink: /docs/:path/
+    permalink: /docs/js-concepts:path/
