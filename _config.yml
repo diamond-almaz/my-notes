@@ -3,3 +3,5 @@ collections:
   docs:
     output: true
     permalink: /:path/
+include:
+  - "docs/**/*"
